@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adventure</title>
+    <link rel="stylesheet" href="adv.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+     <nav class="navbar">
+        <h1 class="logo">ADVENTURE</h1>
+        <ul class="nav-link">
+            <li><a class="active" href="#">Home</a></li>
+            <li><a href="#">Tours</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">About</a></li>
+            <li><a  class="ctn" href="#">Contact</a></li>
+        </ul>
+        <img src="../menu-btn.png" alt="" class="menu-btn">
+     </nav>
+
+
+    <header>
+        <div class="header-content">
+            <h2> Explore the world </h2>
+            <div class="line"></div>
+            <h1> A WONDERFUL GIFT</h1>
+            <a href="#" class="ctn">Learn more</a>
+        </div>
+    </header>
+
+    <!-- Events -->
+        <section class="events">
+            <div class="title">
+                <h1>UPCOMING EVENTS</h1>
+                <div class="line"></div>
+            </div>
+                <div class="row">
+                    <div class="col">
+                        <img src="../img1.png" alt="">
+                        <h4>Everest camp trek</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio ab 
+                             dolor maiores cum alias libero laudantium aspernatur, mollitia iste ipsam! Aspernatur
+                              asperiores vero pariatursaepe numquam distinctio natus quasi.</p>
+                             <a href="#" class="ctn">Learn more</a>
+                    </div>
+
+
+                    <div class="col">
+                        <img src="../img2.png" alt="">
+                        <h4>Walking Holidays</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                             ab consectetur dolor maiores cum alias libero laudantium 
+                            aspernatur, mollitia iste ipsam! Aspernatur asperiores vero pariatur
+                             saepe numquam distinctio natus quasi.</p>
+                             <a href="#" class="ctn">Learn more</a>
+                    </div>
+
+
+                </div>
+        </section>
+
+        <section class="explore">
+                    <div class="explore-content">
+                        <h1>EXPLORE THE WORLD</h1>
+                        <div class="line"></div>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime veniam ut temporibus,
+                         minima in delectus aliquid voluptatibus modi et neque ipsa necessitatibus itaque.
+                        Tempore, placeat? Incidunt, non perferendis enim, ipsam eos, porro provident tempore  consectetur!
+                         Totam veritatis esse veniam vero vitae expedita est, voluptas delectus, consequuntur nisi quaerat?</p>
+                        <a href="#" class="ctn">Learn more</a>
+                    </div>
+        </section>
+
+        <section class="tours">
+            <div class="row">
+                <div class="col content-col">
+                    <h1> UPCOMING TOURS & DESTINATION</h1>
+                    <div class="line"></div>
+                    <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis, ipsum. 
+                        Eaque incidunt magni tenetur ipsa aliquam quos reiciendis odio vero nobis?
+                         Commodi mollitia aspernatur harum at officia dolorum aliquid ipsam?</P>
+                         <a href="#" class="ctn">Learn more</a>
+                </div>
+                <div class="col image-col">
+                    <div class="image-gallery">
+                        <img src="../img3.png" alt="">
+                        <img src="../img4.png" alt="">
+                        <img src="../img5.png" alt="">
+                        <img src="../img6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <p>123 Fifth Avenue, NY 10160, New york, USA | Phone : 123-456-987 | Email : Contact@gmail.com</p>
+            <p>Copyright © 2020 Outdoor Adventure </p>
+
+        </section>
+
+<script>
+
+    const menuBtn=document.querySelector('.menu-btn')
+    const navlinks=document.querySelector('.nav-link')
+
+    menuBtn.addEventListener('click',()=>{navlinks.classList.toggle('mobile-menu')})
+</script>
+    
+</body>
+</html>
